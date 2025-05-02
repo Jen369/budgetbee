@@ -1,11 +1,11 @@
 
 class RecurringIncome extends Item{
-    private int freq;
+    private int frequency;
 
-    public void set_freq(int f /*how do we store the frequency? days? weeks? a string?*/){
-        if (f > 0){
-            freq = f;
+    public void setFrequency(int frequency){
+        if (frequency > 0) this.frequency = frequency;
+    }
+            public int getFrequency(){
+                return frequrncy;
         }
     }
-
-}
